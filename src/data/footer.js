@@ -1,5 +1,5 @@
 export const footer = {
-  copyright: "2024 Your Company. All rights reserved.",
+  copyright: "2023 Aveniq Solutions. All rights reserved.",
   logo: {
     src: "./logo.png",
     alt: "logo",
