@@ -1,32 +1,38 @@
 export const features = [
   {
-    title: "Unlimited users",
-    description: "Invite as many team members as you want.",
-    icon: "tabler:users",
+    title: "Web App Development",
+    description:
+      "Modern, responsive web applications built with performance, security, and scalability in mind.",
+    icon: "tabler:layout-dashboard", // Represents UI or layout of a web app
   },
   {
-    title: "Unlimited projects",
-    description: "Create as many projects as you need.",
-    icon: "tabler:stack",
+    title: "Mobile App Development",
+    description:
+      "Cross-platform mobile apps for iOS and Android that offer smooth, user-friendly experiences.",
+    icon: "tabler:device-mobile-code", // Mobile device with code symbol
   },
   {
-    title: "Unlimited storage",
-    description: "Store all your files and assets in one place.",
-    icon: "tabler:database",
+    title: "UI/UX Design",
+    description:
+      "Intuitive interfaces and human-centered design that elevate the user experience across all devices.",
+    icon: "tabler:brush", // Creative/design representation
   },
   {
-    title: "Priority support",
-    description: "Get priority support for all your needs.",
-    icon: "tabler:headset",
+    title: "API & Backend Development",
+    description:
+      "Robust, scalable backend systems and APIs using Node.js, Express, MongoDB, and more.",
+    icon: "tabler:code", // Code symbol to represent development/backend logic
   },
   {
-    title: "Advanced analytics",
-    description: "Get detailed insights and analytics.",
-    icon: "tabler:chart-bar",
+    title: "Cloud Integration & Hosting",
+    description:
+      "Seamless deployment and cloud services setup using platforms like Firebase, Vercel, and AWS.",
+    icon: "tabler:cloud", // Cloud infrastructure representation
   },
   {
-    title: "Custom branding",
-    description: "Customize your branding and make it yours.",
-    icon: "tabler:brand-appstore",
+    title: "Maintenance & Support",
+    description:
+      "Ongoing technical support, performance optimization, and updates to keep your product running smoothly.",
+    icon: "tabler:tools", // Tools icon for maintenance and support
   },
 ];
