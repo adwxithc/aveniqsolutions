@@ -8,6 +8,7 @@ import {
     Footer,
     PricingSection,
     LargeFeatureSection,
+    CareerSection,
     CtaSection,
 } from '../components/sections';
 
@@ -20,7 +21,6 @@ import {
     clients,
     footer,
 } from '@/data';
-import { CareerSection } from '@/components/sections/careerSection';
 import { values } from '@/data/values';
 
 export default function Home() {
