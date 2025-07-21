@@ -8,6 +8,7 @@ import {
     Footer,
     PricingSection,
     LargeFeatureSection,
+    CareerSection,
     CtaSection,
 } from '../components/sections';
 
@@ -20,6 +21,7 @@ import {
     clients,
     footer,
 } from '@/data';
+import { values } from '@/data/values';
 
 export default function Home() {
     return (
@@ -69,6 +71,26 @@ export default function Home() {
                 description="Explore the services that power your business — from idea to scalable digital product, we provide full-cycle development and modern IT solutions tailored for startups and enterprises."
                 features={features}
             />
+            <CareerSection
+                id="career"
+                title="Join Our Team"
+                description="At Aveniq Solutions, we're driven by innovation and a passion for building impactful digital solutions. From modern web apps to scalable cloud systems, we work on projects that matter.
+
+Join a collaborative, fast-paced environment where your skills grow, your ideas are valued, and your work makes a real difference."
+                buttons={[
+                    {
+                        href: '#',
+                        label: 'Explore Our Culture',
+                        color: 'dark',
+                    },
+                ]}
+            />
+                 <FeatureSection
+                id="values"
+                title="What We Stand For"
+                description="At Aveniq Solutions, our values shape everything we do — from how we build products to how we work as a team. They guide our culture, drive innovation, and keep us focused on what truly matters."
+                features={values}
+            />
             {/* <LargeFeatureSection
         title="Stay on top of your business"
         description="Explore the services that power your business — from idea to scalable digital product, we provide full-cycle development and modern IT solutions tailored for startups and enterprises."
@@ -103,7 +125,7 @@ export default function Home() {
         }}
         pricing={pricing}
       /> */}
-            <TestimonialSection
+            {/* <TestimonialSection
                 id="testimonials"
                 title="Love from our customers"
                 description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis similique
@@ -120,7 +142,7 @@ export default function Home() {
                     href: '#',
                     color: 'white',
                 }}
-            />
+            /> */}
             <FaqSection
                 id="faqs"
                 title="Frequently Asked Questions"
@@ -144,7 +166,7 @@ export default function Home() {
                         label: 'Contact Us',
                         href: 'mailto:aveniqsolution@gmail.com?subject=Project%20Inquiry',
                         color: 'dark',
-                    }
+                    },
                 ]}
             />
             <Footer
