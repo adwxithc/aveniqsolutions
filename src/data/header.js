@@ -23,17 +23,17 @@ export const header = {
     },
   ],
   buttons: [
-    {
-      label: "Sign In",
-      href: "#",
-      color: "transparent",
-      size: "small",
-    },
-    {
-      label: "Sign Up",
-      href: "#",
-      color: "dark",
-      size: "small",
-    },
+    // {
+    //   label: "Sign In",
+    //   href: "#",
+    //   color: "transparent",
+    //   size: "small",
+    // },
+    // {
+    //   label: "Sign Up",
+    //   href: "#",
+    //   color: "dark",
+    //   size: "small",
+    // },
   ],
 };

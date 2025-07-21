@@ -44,18 +44,18 @@ export default function Home() {
                 title="Aveniq Solutions"
                 description="Driven by innovation and built for impact, we craft tailored digital solutions that help startups launch faster and enterprises scale smarter — across web, mobile, and cloud platforms."
                 buttons={[
-                    {
-                        href: '#',
-                        label: 'Start Free Trail',
-                        color: 'dark',
-                    },
-                    {
-                        href: '#',
-                        label: 'Learn More',
-                        color: 'transparent',
-                        variant: 'link',
-                        icon: 'tabler:arrow-right',
-                    },
+                    // {
+                    //     href: '#',
+                    //     label: 'Start Free Trail',
+                    //     color: 'dark',
+                    // },
+                    // {
+                    //     href: '#',
+                    //     label: 'Learn More',
+                    //     color: 'transparent',
+                    //     variant: 'link',
+                    //     icon: 'tabler:arrow-right',
+                    // },
                 ]}
                 image={{
                     src: './tablet-mockup.png',

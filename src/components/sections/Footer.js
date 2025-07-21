@@ -26,13 +26,21 @@ export function Footer({ copyright, logo, links, social, ...rest }) {
           </div>
           <SocialLinks links={social} />
         </div>
-        
+
         <div className="border-t border-base py-4 text-center flex justify-between">
           <p className="text-sm">&copy; {copyright}</p>
-          <a href="https://bansal.io" className="text-sm text-muted italic">
-            Themed by Bansal
-          </a> 
-          <p className="text-sm">Distributed by <a href="https://themewagon.com" className="text-sm">ThemeWagon</a></p>
+          <a
+            href="https://www.aveniq.live/"
+            className="text-sm text-muted italic"
+          >
+            Themed by Aveniq
+          </a>
+          <p className="text-sm">
+            Distributed by{" "}
+            <a href="https://www.aveniq.live/" className="text-sm">
+              Aveniq
+            </a>
+          </p>
         </div>
       </div>
     </footer>
